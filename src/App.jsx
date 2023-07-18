@@ -1,6 +1,6 @@
-import './App.css';
 import Button from 'react-bootstrap/Button';
 import { useState } from 'react';
+import './App.css';
 
 import img1 from './images/1.png'
 import img2 from './images/2.png'
@@ -12,7 +12,7 @@ import img6 from './images/6.png'
 
 function App() 
 {
-  var diceImage = [
+  var Images = [
     img1,
     img2,
     img3,
@@ -20,14 +20,14 @@ function App()
     img5,
     img6
   ]
-  const [image, setNewImage] = useState(diceImage[0])
-  const [image2, setNewImage2] = useState(diceImage[1])
+  const [image1, setNewImage] = useState(Images[0])
+  const [image2, setNewImage2] = useState(Images[1])
 
   const rollDice =() => {
     var randomNum1 = Math.floor(Math.random() * 6);
     var randomNum2 = Math.floor(Math.random() * 6);
-    setNewImage(diceImage[randomNum1]);
-    setNewImage2(diceImage[randomNum2]);
+    setNewImage(Images[randomNum1]);
+    setNewImage2(Images[randomNum2]);
 
 
   }
@@ -36,7 +36,7 @@ function App()
               <div>
               <h1 id='welcome'>welcome to adas dice roller</h1>
               <div className="container">
-                <img className="square" src={image} alt=''></img>
+                <img className="square" src={image1} alt=''></img>
                 <div style={{width:'5px', display: 'inline-block'}}></div>
                 <img className="square" src={image2} alt=''></img>
               </div>
