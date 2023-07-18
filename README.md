@@ -52,3 +52,16 @@ This project is licensed under the [MIT License](LICENSE), which means you can m
 - Thanks to all contributors who helped improve the project and fix issues.
 
 Have fun rolling the dice! 🎲
+
+<br>
+<br>
+<br>
+ 
+. 
+![Screenshot](./
+<br>
+<br>
+<br>
+ 
+. 
+![Screenshot](./secreenshot/dice.png))
