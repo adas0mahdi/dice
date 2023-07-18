@@ -64,4 +64,4 @@ Have fun rolling the dice! 🎲
 <br>
  
 . 
-![Screenshot](./secreenshot/dice.png))
+![Screenshot](./secreenshot/dice.png)
