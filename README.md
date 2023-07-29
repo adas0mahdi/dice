@@ -56,9 +56,6 @@ Have fun rolling the dice! 🎲
 <br>
 <br>
 <br>
- 
-. 
-![Screenshot](./
 <br>
 <br>
 <br>
